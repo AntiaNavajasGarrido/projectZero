@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    padding-left: 220px;
+    padding-top: 60px;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* ESTILOS UNIFICADOS PARA AMBOS NAV */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+
+.navTop ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    height: calc(100% - 60px);
+    background-color: #222;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.navLeft ul {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.navLeft li {
+    margin-bottom: 15px;
+}
+
+/* PARA LAS IMÁGENES DE LA MANSIÓN */
+.contImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.contImg img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.resumeMansion {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* PARA EL FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    z-index: 10;
+}
