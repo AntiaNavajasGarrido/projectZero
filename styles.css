@@ -248,7 +248,7 @@ td[colspan="3"] {
 
 
 /* PARA EL FOOTER */
-footer {
+footer P{
     text-align: center;
     padding: 15px; 
 }
