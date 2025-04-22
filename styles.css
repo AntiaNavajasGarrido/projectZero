@@ -35,6 +35,7 @@ p{
     text-align: justify;
     margin-bottom: 15px;
 }
+
 /* ESTILOS UNIFICADOS PARA AMBOS NAV */
 nav ul {
     list-style: none;
@@ -94,10 +95,12 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #ac5e3c;
 }
-
+.titles h2{
+    margin-bottom: 15px;
+}
 /* PARA LAS IMÁGENES DEL INDEX Y ESTILOS DE LOS TEXTOS*/
 
 .specs{
@@ -176,6 +179,7 @@ a {
     align-items: center;
 }
 
+
 /* PARA LA TABLA DE PERSONAJES */
 
 table {
@@ -245,6 +249,33 @@ td[colspan="3"] {
     text-align: justify;
 }
 
+.resume p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.cameraControls{
+    list-style-type: none;
+}
+
+.spoiler{
+    background-color: #bb7b4f;
+}
+/* PARA LOS MAPAS */
+
+.mapsImg {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.mapsImg img {
+    width: 700px;
+    height: auto;
+    border-radius: 4px;
+}
 
 /* PARA EL FOOTER */
 footer P{
