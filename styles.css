@@ -276,6 +276,20 @@ td[colspan="3"] {
     height: auto;
     border-radius: 4px;
 }
+/* PARA LAS IMÁGENES DE CADA NOCHE Y PRIMEROS PASOS */
+.introImg {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+.introImg img {
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+}
 
 /* PARA EL FOOTER */
 footer P{
